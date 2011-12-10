@@ -1,8 +1,225 @@
+/*                                                                                           
+                                             `                                               
+                                            .'.                                              
+                                            `;`                                              
+                                             :                                               
+                                             ;`                                              
+        .:.                                  ;`                                              
+        .;;:`                                ;`                                              
+        `.;;:`                               ;`                                              
+          .;;,                             .:';;:.                                           
+          `;;:                           `;''''''':`                                         
+           :;;`                          ;''''''''':                                         
+           :;;                          ,'''''''''''.                                        
+,,,        ;;:                          '''';'';'''':                                        
+,;:       `;;.``                       .''';;;;;;''';                                        
+`;;,     .:;;:;:`                      ,'''';'';''''':,..``....```                           
+ ,;;:.` ,;;;;;;;:`                    `:''''''''''''';;;;;;;;;;;;;;:::.                      
+  ,;;;;:;;;;;;;;;:`               ``,:;;'''''''''''';;;;;';;;;;;;;;;;;;`                     
+   .:;;;;;;;;;;;;;:          `,::;;';;;;;'''''''''';;;;;'';;;;;;;;;;;;'+:`                   
+     `.:;;;;;;;;;'.        .:;;;;;;';;;;;;;'''''';;;;;;''';;;;;;;;;;;;+++'.                  
+      `:;;;;;;;;';       `:;;;;;;;;'';;;;;;;;;;;;;;;;'''''';;;;;;;;;;'++++'                  
+     `;;;;;;;;;'';       .;;;;;;;;;''';;;;;;;;;;;;;;'''''''''';;;;;;;'++++'                  
+      :;;;;;;;''''.    `;';;;;;;;;;''''';;;;;;;;;''''''''''''''';;;;;+++++;                  
+      .;;;;;;''''':.  :++';;;;;;;;'''''''''''''''''''''''''''''''';;;+++++;`                 
+       :;;;;'''''';;:,+++';;;;;;;'''''''''''''''''''''''''''''''''';;+++++;;`                
+       `;;;;'''''';;;;+++';;;;;;'''''''''''''''''''''''''''''''''''''++++';;;.               
+        ,;;''''''';;;;+++';;;;;'''''''''''''''''''''''''''''''''''''''+++;;;;;.              
+        `;;''''''';;;;'++';;;;''''''''''''''''''''''''''''''''''''''''++';;;;;;.             
+         . .'''''';;;;;+++;;;''''''''''''''''''''''''''''''''''''''''''+;;;;;;;:             
+            ,''''';;;;;+++;;'''''''''''''''''''''''''''''''''''''''''''';;;;;;;+:;`          
+             :''';;;;;;'+++'''''''''''''''''''''''''''''''''''''''''''';;;;;;'+''';          
+              ;'';;;;;;;+++'''''''''''''''''''''''''''''''''''''''''''';;;;;''''''',         
+              `;';;;;;;;'++'''''''''''''''''''''''''''''''''''''''''''';;;'''''++++'         
+               `;;;;;;;;;++''''''''''''''''''''''''''''''''''''''''''''':''''+';;;;,         
+                .;;;;;;;;'''''''''''''''''''''''''''''''''''''''''''''''.;'+';;;;;;:`        
+                 ,,,,,,,,:'''''''''''''''''''''''''''''''''''''''''''''',.+;;;;;;;;;:        
+                          ;''''''''''''''''''''''''''''''''''''''''''''': .;;;;;;;;;;;       
+                          :'''''''''''''''''''''''''''''''''''''''''''''; `;;;;;;;;''':      
+                          ;''''''''''''''''''''''''''''''''''''''''''''''  :;;;;'''''''.     
+                          ;''''''''''''''''''''''''''''''''''''''''''''''` .;;''''''''';`    
+                          ;''''''''''''''''''''''''''''''''''''''''''''''` .'''''''''''';    
+                          ;''''''''''''''''''''''''''''''''''''''''''''''.  ;'''''''''';:    
+                          ''''''''''''''''''''''''''''''''''''''''''''''',  ,''''''';;;;:    
+                         `''''''''''''''''''''''''''''''''''''''''''''''',  `'''';;;;;;;;`   
+                         `''''''''''''''''''''''''''''''''''''''''''''''':   :;;;;;;;;;;;,   
+                         `''''''''''''''''''''''''''''''''''''''''''''''';    :;;;;;;;;;;:   
+                         `''''''''''''''''''''''''''''''''''''''''''''''';    :;;;;;;;;;;;.  
+                         `''''''''''''''''''''''''''''''''''''''''''''''''    :;;;;;;;;;;;:  
+                         .''''''''''''''''''''''''''''''''''''''''''''''''`   ,;;;;;;;;;;;;` 
+                         .''''''''''''''''''''''''''''''''''''''''''''''''`   ,;;;;;;''''';. 
+                         .''''''''''''''''''''''''''''''''''''''''''''''''.   ;'''''''''''''`
+                         .'''''''''''''''''''''''''''''''''''''''''''''''',   :;;''''''''''',
+                         .'''''''''''''''''''''''''''''''''''''''''''''''',   :;;;'''''''''':
+                         .'''''''''''''''''''''''''''''''''''''''''''''''':  `'''.:;;;;;;;;;,
+                         .'''''''''''''''''''''''''''''''''''''''''''''''':  `;''`:'';'''''':
+                         .'''''''''''''''''''''''''''''''''''''''''''''''';   :;: :'';'''''',
+                         .'''''''''''''''''''''''''''''''''''''''''''''''';   ,;;:;;;:;;';'',
+                         .'''''''''''''''''''''''''''''''''''''''''''''''''   `::;;;;;;;;;;;`
+                         `'''''''''''''''''''''''''''''''''''''''''''''''''`     `:;:;;;;;;: 
+                         `'''''''''''''''''''''''''''''''''''''''''''''''''`         `,,.:;. 
+                         `'''''''''''''''''''''''''''''''''''''''''''''''''.              `  
+                         `'''''''''''''''''''''''''''''''''''''''''''''''''.                 
+                          ''''''''''''''''''''''''''''''''''''''''''''''''',                 
+                          ;''''''''''''''''''''''''''''''''''''''''''''''''.                 
+                          ;''''''''''''''''''''''''''''''''''''''''''''''''`                 
+                          :''''''''''''''''''''''''''''''''''''''''''''''':                  
+                          ,'''''''''''''''''''''''''''''''''''''''''''''''.                  
+                          `'''''''''''''''''''''''''''''''''''''''''''''':                   
+                           ;'''''''''''''''''''''''''''''''''''''''''''';`                   
+                           ,''''''''''''''''''''''''''''''''''''''''''';`                    
+                            ;''''''''''''''''''''''''''''''''''''''''';`                     
+                            `;''''''''''''''''''''''''''''''''''''''';:                      
+                             `;'''''''''''''''''''''''''''''''''''';;;:                      
+                              `:'''''''''''''''''''''''''''''''';;;;;;,                      
+                                ,'''''''''''''''''''''''''''';;;;;;;;;,                      
+                                 :;;;''''''''''''''''';;;;;;;;;;;;;;;;.                      
+                                 ,;;;;;;;;;;;;;;;:.```  ,;;;;;;;;;;;;;.                      
+                                 `;;;;;;;;;;;;;;:        :;;;;;;;;;;;;`                      
+                                  ,;;;;;;;;;;;;:`        `;;;;;;;;;;;;`                      
+                                  `;;;;;;;;;;;:`          ,;;;;;;;;;;;                       
+                                   .''''''''':`            :''''+++++.                       
+                                   `+++++++++:             ,+++++++++.                       
+                                   `+++++++++:`            ,+++++++++.                       
+                                   :;;;;;;;;;;;           :;;;;;;;;;;;                       
+                                   :;;;;;;;;;;;           :;;;;;;;;;;;                       
+                                   :;;;;;;;;;;;           :;;;;;;;;;;;                       
+                                   :;;;;;;;;;;;           :;;;;;;;;;;;                       
+                                   :;;;;;;;;;;;           :;;;;;;;;;;;                       
+                                   :;;;;;;;;;;;           :;;;;;;;;;;;                       
+                                   :;;;;;;;;;;;           :;;;;;;;;;;;                       
+                                   :;;;;;;;;;;;           :;;;;;;;;;;;                       
+                                   :;;;;;;;;;;;           :;;;;;;;;;;;                       
+                                   ,,;''''''':`           `:'''''''':,                       
+                                     ++++++++:             ,++++++++`                        
+                                   ,,'''''''';,           ,:'''''''',,`                      
+                                  ,;;;;;;;;;;;;.         `;;;;;;;;;;;;,                      
+                                 `;;;;;;;;;;;;;:         ,;;;;;;;;;;;;;.                     
+                                 :;;;;;;;;;;;;;;`        ;;;;;;;;;;;;;;:`                    
+                                .;;;;;;;;;;;;;;;,       .;;;;;;;;;;;;;;;,                    
+                               `::::::::::::::::,       ,::::::::::::::::`
+                               
+                               "888                   .o8             
+            oooo d8b  .ooooo.   888oooo.   .ooooo.  .o888oo  .ooooo.  
+            `888""8P d88' `88b  d88' `88b d88' `88b   888   d88' `88b 
+             888     888   888  888   888 888   888   888   888   888 
+             888     888   888  888   888 888   888   888 . 888   888 
+            d888b    `Y8bod8P'  `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P'
+
+-------------------------------------------------------------------------------*/
+
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}                 
+
+article, aside, figure, footer, header, hgroup, nav, section {display: block;}
+
+/* Responsive images and other embedded objects
+   Note: keeping IMG here will cause problems if you're using foreground images as sprites.
+   If this default setting for images is causing issues, you might want to replace it with a .responsive class instead. */
+img,
+object,
+embed {max-width: 100%;}
+
+/* force a vertical scrollbar to prevent a jumpy page */
+html {overflow-y: scroll;}
+
+/* we use a lot of ULs that aren't bulleted. 
+  don't forget to restore the bullets within content. */
+ul {list-style: none;}
+
+blockquote, q {quotes: none;}
+
+blockquote:before, 
+blockquote:after, 
+q:before, 
+q:after {content: ''; content: none;}
+
+a {margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent;}
+
+del {text-decoration: line-through;}
+
+abbr[title], dfn[title] {border-bottom: 1px dotted #000; cursor: help;}
+
+/* tables still need cellspacing="0" in the markup */
+table {border-collapse: collapse; border-spacing: 0;}
+th {font-weight: bold; vertical-align: bottom;}
+td {font-weight: normal; vertical-align: top;}
+
+hr {display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0;}
+
+input, select {vertical-align: middle;}
+
+pre {
+  white-space: pre; /* CSS2 */
+  white-space: pre-wrap; /* CSS 2.1 */
+  white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */
+  word-wrap: break-word; /* IE */
+}
+
+input[type="radio"] {vertical-align: text-bottom;}
+input[type="checkbox"] {vertical-align: bottom; *vertical-align: baseline;}
+.ie6 input {vertical-align: text-bottom;}
+
+select, input, textarea {font: 99% sans-serif;}
+
+table {font-size: inherit; font: 100%;}
+ 
+/* Accessible focus treatment
+  people.opera.com/patrickl/experiments/keyboard/test */
+a:hover, a:active {outline: none;}
+
+small {font-size: 85%;}
+
+strong, th {font-weight: bold;}
+
+td, td img {vertical-align: top;} 
+
+/* Make sure sup and sub don't screw with your line-heights
+  gist.github.com/413930 */
+sub, sup {font-size: 75%; line-height: 0; position: relative;}
+sup {top: -0.5em;}
+sub {bottom: -0.25em;}
+
+/* standardize any monospaced elements */
+pre, code, kbd, samp {font-family: monospace, sans-serif;}
+
+/* hand cursor on clickable elements */
+.clickable,
+label, 
+input[type=button], 
+input[type=submit], 
+button {cursor: pointer;}
+
+/* Webkit browsers add a 2px margin outside the chrome of form elements */
+button, input, select, textarea {margin: 0;}
+
+/* make buttons play nice in IE */
+button {width: auto; overflow: visible;}
+ 
+/* scale images in IE7 more attractively */
+.ie7 img {-ms-interpolation-mode: bicubic;}
+
+/* prevent BG image flicker upon hover */
+.ie6 html {filter: expression(document.execCommand("BackgroundImageCache", false, true));}
+
+/* let's clear some floats */
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }  
+.clearfix:after { clear: both; }  
+.clearfix { zoom: 1; }
+
+
 /* Page styles!
 -------------------------------------------------------------------------------*/
 body {
 	font: 13px 'Droid Sans Mono', Helmet, Freesans, sans-serif;
-	background: #02416D url(/images/layout/grid_blue.gif);
+	background: #02416D url(../img/grid_blue.gif);
 }
 
 body,select,input,textarea {
@@ -57,7 +274,7 @@ mark {
 .main {
 	height: 620px;
 	width: 100%;
-	background: #f7f7f7 url(/images/layout/grid.gif);
+	background: #f7f7f7 url(../img/grid.gif);
 }
 
 .main-wrap {
@@ -86,7 +303,7 @@ h1 span {
 	display: block;
 	width: 602px;
 	height: 377px;
-	background: url(/images/layout/blueboard.png)no-repeat;
+	background: url(../img/blueboard.png)no-repeat;
 	text-indent: -999em;
 }
 
@@ -97,7 +314,7 @@ h1 span {
 	display: block;
 	width: 150px;
 	height: 105px;
-	background: url(/images/layout/legs.png)no-repeat;
+	background: url(../img/legs.png)no-repeat;
 }
 
 #arm {
@@ -107,7 +324,7 @@ h1 span {
 	display: block;
 	width: 151px;
 	height: 113px;
-	background: url(/images/layout/arm.png)no-repeat;
+	background: url(../img/arm.png)no-repeat;
 }
 
 #body {
@@ -117,7 +334,7 @@ h1 span {
 	display: block;
 	width: 245px;
 	height: 220px;
-	background: url(/images/layout/body.png)no-repeat;
+	background: url(../img/body.png)no-repeat;
 }
 
 #badge {
@@ -127,7 +344,7 @@ h1 span {
 	display: block;
 	width: 56px;
 	height: 21px;
-	background: url(/images/layout/badge.png)no-repeat;
+	background: url(../img/badge.png)no-repeat;
 }
 
 #head {
@@ -137,12 +354,12 @@ h1 span {
 	display: block;
 	width: 91px;
 	height: 89px;
-	background: url(/images/layout/head.png)no-repeat;
+	background: url(../img/head.png)no-repeat;
 }
 
 footer {
 	width: 100%;
-	background: url(/images/layout/footer.gif) repeat-x top;
+	background: url(../img/footer.gif) repeat-x top;
 	color: white;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
 }
