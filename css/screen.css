@@ -219,7 +219,7 @@ button {width: auto; overflow: visible;}
 -------------------------------------------------------------------------------*/
 body {
 	font: 13px 'Droid Sans Mono', Helmet, Freesans, sans-serif;
-	background: #02416D url(../img/grid_blue.gif);
+	background: #02416D url(/images/layout/grid_blue.gif);
 }
 
 body,select,input,textarea {
@@ -274,7 +274,7 @@ mark {
 .main {
 	height: 620px;
 	width: 100%;
-	background: #f7f7f7 url(../img/grid.gif);
+	background: #f7f7f7 url(/images/layout/grid.gif);
 }
 
 .main-wrap {
@@ -303,7 +303,7 @@ h1 span {
 	display: block;
 	width: 602px;
 	height: 377px;
-	background: url(../img/blueboard.png)no-repeat;
+	background: url(/images/layout/blueboard.png)no-repeat;
 	text-indent: -999em;
 }
 
@@ -314,7 +314,7 @@ h1 span {
 	display: block;
 	width: 150px;
 	height: 105px;
-	background: url(../img/legs.png)no-repeat;
+	background: url(/images/layout/legs.png)no-repeat;
 }
 
 #arm {
@@ -324,7 +324,7 @@ h1 span {
 	display: block;
 	width: 151px;
 	height: 113px;
-	background: url(../img/arm.png)no-repeat;
+	background: url(/images/layout/arm.png)no-repeat;
 }
 
 #body {
@@ -334,7 +334,7 @@ h1 span {
 	display: block;
 	width: 245px;
 	height: 220px;
-	background: url(../img/body.png)no-repeat;
+	background: url(/images/layout/body.png)no-repeat;
 }
 
 #badge {
@@ -344,7 +344,7 @@ h1 span {
 	display: block;
 	width: 56px;
 	height: 21px;
-	background: url(../img/badge.png)no-repeat;
+	background: url(/images/layout/badge.png)no-repeat;
 }
 
 #head {
@@ -354,12 +354,12 @@ h1 span {
 	display: block;
 	width: 91px;
 	height: 89px;
-	background: url(../img/head.png)no-repeat;
+	background: url(/images/layout/head.png)no-repeat;
 }
 
 footer {
 	width: 100%;
-	background: url(../img/footer.gif) repeat-x top;
+	background: url(/images/layout/footer.gif) repeat-x top;
 	color: white;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
 }
